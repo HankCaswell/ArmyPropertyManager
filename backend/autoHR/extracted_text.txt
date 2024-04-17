@@ -1,0 +1,1492 @@
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 1 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+MPO
+   MPO Description
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+598501C956238
+ANTENNA MAST SYSTEM, ELEVATED TRI-BAND:
+EA
+U
+0179
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+TMP_0000247747
+TMP_0000247748
+TMP_0000247749
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+6130015845315
+ADAPTER,POWER SUPPLY
+EA
+U
+8212
+EA
+2
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+703501C166585
+COPIER, MULTI FUNCTION: X792DTE LEXMARK
+EA
+U
+2181
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+75623494G34ZP
+MPO
+   MPO Description
+000002610
+70069N CHARGER BATTERY, 60/100-AMP 6 OR 12V BAT
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+599901C124341
+CHARGER BATTERY, 60/100-AMP 6 OR 12: MRC
+EA
+U
+8212
+EA
+1
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+6130014952839
+CHARGER,BATTERY
+EA
+U
+8212
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+023238
+MPO
+   MPO Description
+000009199
+70188N AUDIO PACK SOUND SYSTEM
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+583001D000099
+AUDIO PACK SOUND SYSTEM: 3000 ESCORT PEA
+EA
+U
+8212
+EA
+1
+MPO
+   MPO Description
+000000070
+70209N COMPUTER, PERSONAL WORKSTATION
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 2 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+701001C950575
+COMPUTER OPTIPLEX 7060 MINI TOWER
+EA
+U
+0269
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+772KZV2
+8VQNZV2
+8W3NZV2
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+701001X413208
+COMPUTER, DELL OPTIPLEX  7050 MT
+EA
+U
+3018
+EA
+4
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+C4RVHL2
+C4TNHL2
+C73VHL2
+CR7VHL2
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+702101D184772
+COMPUTER, LATITUDE 5290 2-IN-1, DELL, 12
+EA
+U
+3018
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+9CWRZQ2
+MPO
+   MPO Description
+000000055
+70223N MONITOR, COLOR IMPE
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+702501X417510
+MONITOR, ULTRASHARP, 49 IN, CURVED, DL2-
+EA
+U
+1029
+EA
+1
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+702501Y025301
+MONITOR, DELL ULTRASHARP U2518D 25"
+EA
+U
+3058
+EA
+3
+MPO
+   MPO Description
+000000302
+70238N RADIO, MOBILE PORTABLE REMOTE
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+582001C057671
+RADIO, MOBILE PORTABLE REMOTE: H46QDH9PW
+EA
+U
+9042
+EA
+10
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+407CMD1268
+407CMD1269
+407CMD1270
+407CMD1271
+407CMD1272
+407CMD1273
+407CMD1274
+407CMD1275
+407CMD1276
+407CMD1278
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 3 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+MPO
+   MPO Description
+000018165
+93374N FILING CABINET, SECURE
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7110010290389
+FILING CABINET
+EA
+U
+2181
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+32909
+MPO
+   MPO Description
+000009169
+C05002 TRANSFER UNIT,  CRYPT
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5810015173587
+TRANSFER UNIT,CRYPT
+EA
+9
+0050
+EA
+24
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+146905
+185899
+185914
+185971
+185978
+186000
+186001
+186087
+186093
+186094
+186242
+186308
+186513
+186570
+186577
+206917
+206918
+206919
+206921
+206923
+206927
+206928
+206929
+205853
+MPO
+   MPO Description
+000155830
+C05036 COMPUTER SYSTEM,DIGITAL
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7010016269244
+COMPUTER SYSTEM,DIGITAL
+EA
+Y
+3059
+EA
+2
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+B2UYK128DNT02278
+B2UYK128DNT02279
+MPO
+   MPO Description
+000155833
+C05037 COMPUTER SYSTEM,DIGITAL
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 4 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7010016269912
+COMPUTER SYSTEM,DIGITAL
+EA
+Y
+2293
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+TOC2-00380
+MPO
+   MPO Description
+000001222
+C27963 COMPUTER SYSEM: DIGITAL
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7010015527849
+COMPUTER SYS: DIG
+EA
+Y
+0358
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+F1YRHH1
+MPO
+   MPO Description
+000132667
+E05005 ENCRYPTION-DECRYPTION: KG-250
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5810015246615
+ENCRYPTION-DECRYPTI
+EA
+9
+2206
+EA
+2
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+10000071000024417
+10000071000024418
+MPO
+   MPO Description
+000135586
+E05008 ENCRYPTION-DECRYPTION EQUIP: KGV-72
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5810015643364
+ENCRYPTION-DECRYPTI
+EA
+9
+2293
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+101419
+MPO
+   MPO Description
+000176611
+E05011 ENCRYPTION-DECRYPTI
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5810015938026
+ENCRYPTION-DECRYPTI
+EA
+9
+1341
+EA
+22
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 5 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+10000071030016120
+10000071030016121
+10000071030016122
+10000071030016126
+10000071030016127
+10000071030016128
+10000071030024299
+10000071030024300
+10000071030024302
+10000071030001963
+10000071030002510
+10000071030002540
+10000071030002840
+10000071030005637
+10000071030005848
+10000071030006229
+10000071030006639
+10000071030011263
+10000071030011265
+10000071030011266
+10000071030016123
+10000071030016124
+MPO
+   MPO Description
+000140293
+F05010 FIELD COMPUTING DEVICE: (FCD)
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5895015593078
+TACLAN,FLD COMPUT DEV
+KT (1)
+7
+0190
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+RJ703V0126
+RJ703V0195
+RJ703V0196
+MPO
+   MPO Description
+000198579
+FA05AB TELEPHONE
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5805015248471
+TELEPHONE
+EA
+U
+0062
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+300114040400230
+300114040408490
+300114040501020
+MPO
+   MPO Description
+000010134
+FA203B TRANSMITTER, RADIO
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820016312576
+BEACON,DISTRESS
+EA
+7
+0164
+EA
+10
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+04901
+04925
+04948
+05036
+05062
+05064
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 6 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+05067
+05069
+05073
+05080
+MPO
+   MPO Description
+000012354
+FA205N RECEIVER-TRANSMITTER, RADIO
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820015961650
+RECEIVER-TRANSMITTER,RADIO
+EA
+9
+8212
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+175660
+175747
+176730
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820016850718
+RECEIVER-TRANSMITTER,RADIO
+EA
+9
+3058
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+004363
+004377
+006398
+MPO
+   MPO Description
+000201279
+FA95CS COMMUNICATION SYSTEM
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5895016793235
+COMMUNICATION SYSTEM
+EA
+7
+1120
+EA
+2
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+6328
+6390
+MPO
+   MPO Description
+000019992
+FJ211E COMPUTER,DIGITAL
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7021016319931
+COMPUTER,DIGITAL
+EA
+7
+2256
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+FCD2125223
+FCD2125227
+FCD2125229
+MPO
+   MPO Description
+000133547
+FJ354G RECEIVER-TRANSMITTER,DIGITAL DAT
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 7 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+7035016544139
+RECEIVER-TRANSMITTER,DIGITAL DATA
+EA
+Y
+2301
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+MT21120933
+MPO
+   MPO Description
+000198387
+J05029 TRUCK,UTILITY
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+2320016536557
+TRUCK,UTILITY
+EA
+7
+0329
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+795433
+MPO
+   MPO Description
+000000858
+M18029 MBITR: URBAN VERSION
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820015961656
+RADIO SET
+SE (1)
+9
+2306
+EA
+4
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+PGLA-WA8GT0-679
+PGLA-WA8GT0-680
+PGLA-WA8GT0-681
+PGLA-WA8GT0-682
+MPO
+   MPO Description
+000014028
+QA3089 TELEVISION
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+773001C937714
+TELEVISION: LG 1080P SMART LED TV
+EA
+U
+2181
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+506RMGC5W103
+MPO
+   MPO Description
+000152567
+R05007 RADIO,AN/PRC-117GV3C
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820015879864
+RADIO,AN/PRC-117GV3C
+SE (1)
+9
+8212
+EA
+1
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 8 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+1009662980
+MPO
+   MPO Description
+000001559
+R30658 RECEIVE SUITE
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820015306498
+RECEIVE SUIT AN/TSR-8
+SE (1)
+7
+8212
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+1444
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820016072338
+RECEIVE SUITE
+EA
+7
+2206
+EA
+3
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+TN0852
+TN0863
+TN0864
+MPO
+   MPO Description
+000008891
+R45463 RECEIVER-TRANSMITTER: RT-1523F(C)/U
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820015353667
+RECEIVER-TRANSMITTER,RADIO:RT-1523F(C)/U
+EA
+9
+2277
+EA
+7
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+214952
+239294
+265426
+265441
+265457
+265491
+270480
+MPO
+   MPO Description
+000008484
+R45543 RADIO SET: AN/VRC-92F(C)
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820014518250
+RADIO SET AN/VRC-92F
+EA
+9
+8212
+EA
+2
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+1009661819
+1009661821
+Sub Hand Receipt 
+ 
+ 
+ 
+ 
+Page 9 of 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Date: 2024-02-05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Time:15:09:37 
+From:   
+Responsible Officer 
+To: 
+ 
+BFMU S6 TAC 
+FE: 
+ 
+40228119 
+UIC: 
+ 
+WA8GT0PB W5696K 0092 CA BN     HHC HHC CIVIL A
+MPO
+   MPO Description
+000005279
+R68044 RADIO SET: AN/VRC-90F(C)
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5820014518246
+RADIO SET AN/VRC-90F
+EA
+9
+1277
+EA
+2
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+1009656983
+1009656985
+MPO
+   MPO Description
+000166525
+T05038 TEST SET,RADIO
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+6625015818105
+TEST SET,RADIO
+EA
+U
+3045
+EA
+1
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+10545
+MPO
+   MPO Description
+000199771
+Z05849 ELECTRONIC TRANSFER, KEYING DEVICE, TKL
+NSN
+NSN Description
+UI
+CIIC
+DLA
+BUoM
+OH Qty
+5810016082278
+TRANSFER UNIT,CRYPTOGRAPHIC KEY
+EA
+9
+0323
+EA
+4
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+SysNo
+SerNo/RegNo/LotNo
+022410
+022426
+022427
+022436
+From (Print Name)
+Rank
+Date
+Signature
+NADIA PASCETTA
+CPT
+Feb 5, 2024
+To (Print Name)
+Rank
+Date
+Signature
+PASCETTA.NADIA.14585874
+14
+Digitally signed by 
+PASCETTA.NADIA.1458587414 
+Date: 2024.02.05 11:10:04 -05'00'
+SIGN
