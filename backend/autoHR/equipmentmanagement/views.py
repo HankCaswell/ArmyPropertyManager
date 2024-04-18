@@ -258,27 +258,6 @@ class ReturnEquipmentView(APIView):
 
         return Response({'status': 'equipment returned'}, status=HTTP_200_OK)
     
-    # This worked to actually return the equipment but it did not send the transaction_id in the request of the body, when tied in to the front end, so it is commented out for now. 
-# class ReturnEquipmentView(APIView):
-#     permission_classes = [IsAuthenticated]
-
-#     def post(self, request, *args, **kwargs):
-#         transaction_id = request.data.get('transaction_id')
-#         transaction = get_object_or_404(Transaction, id=transaction_id, user=request.user)
-
-#         if transaction.status != 'Available':
-#             transaction.return_date = timezone.now()
-#             transaction.status = 'Available'
-#             transaction.save()
-
-#             equipment = transaction.equipment
-#             equipment.quantity += 1
-#             equipment.save()
-
-#             CartItem.objects.filter(cart__user=request.user, equipment=equipment).delete()
-#             return Response({'status': 'equipment returned'}, status=HTTP_200_OK)
-#         else: 
-#             return Response({'error': 'Equipment already returned'}, status=HTTP_400_BAD_REQUEST)
         
 class CartView(DetailView):
     model = Cart
