@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from .models import UserProfile, Unit, Equipment, Transaction, CartItem
+from .models import UserProfile, Unit, Equipment, Transaction, CartItem, Cart
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -31,15 +31,16 @@ class CartItemSerializer(serializers.ModelSerializer):
     nsn = serializers.ReadOnlyField(source='equipment.nsn')
     status = serializers.ReadOnlyField(source='equipment.status')
     transaction = TransactionSerializer(read_only=True)
+    transaction_id = serializers.ReadOnlyField(source='transaction.id')
 
     class Meta:
         model = CartItem
-        fields = ['id', 'equipment_id', 'equipment_name', 'nsn', 'status', 'quantity', 'transaction']
+        fields = ['id', 'equipment_id', 'equipment_name', 'nsn', 'status', 'quantity', 'transaction', 'transaction_id']
 
 class UserProfileSerializer(serializers.ModelSerializer):
     user = UserSerializer(read_only=True)
     unit = UnitSerializer(read_only=True)
-    cart_items = CartItemSerializer(many=True, read_only=True)  
+    cart_items = CartItemSerializer(many=True, read_only=True, source='cart.cart_items')  
 
     class Meta:
         model = UserProfile
@@ -51,9 +52,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ('username', 'password', 'email', 'profile')
-        extra_kwargs = {
-            'password': {'write_only': True}
-        }
+        extra_kwargs = {'password': {'write_only': True}}
 
     def create(self, validated_data):
         profile_data = validated_data.pop('profile', None)
@@ -61,9 +60,11 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         user = User(**validated_data)
         user.set_password(password)
         user.save()
-        UserProfile.objects.create(user=user, **profile_data)
-        return user
 
+        # Create UserProfile and assign the user    
+        UserProfile.objects.create(user=user, **profile_data)
+
+        return user
 class FileUploadSerializer(serializers.Serializer):
     file = serializers.FileField()
     # Additional fields can be added if necessary
@@ -71,6 +72,20 @@ class FileUploadSerializer(serializers.Serializer):
     # unit_id = serializers.IntegerField()
     # Alternatively, if you want to use UIC as a reference:
     # unit_uic = serializers.SlugRelatedField(slug_field='uic', queryset=Unit.objects.all(), source='unit', allow_null=True)        
+
+class EquipmentCalendarSerializer(serializers.ModelSerializer):
+    # These fields will alias the model fields to names expected by the calendar
+    title = serializers.CharField(source='equipment.name')
+    start = serializers.DateTimeField(source='checkout_date')
+    end = serializers.DateTimeField(source='return_date', allow_null=True)
+
+    class Meta:
+        model = Transaction
+        fields = ['title', 'start', 'end']
+    
+    def get_title(self, obj):
+        status = "returned" if obj.status == "returned" else "borrowed"
+        return f"{obj.equipment.name} - {status}"
 
 
 

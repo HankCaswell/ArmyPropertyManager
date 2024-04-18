@@ -17,7 +17,7 @@ def parse_equipment_details(equipment_text):
     while i < len(lines):
         line = lines[i].strip()
         # Skipping known non-equipment lines more robustly
-        if any(prefix in line for prefix in ["Time:", "Date:", "Page", "From:", "To:", "FE:", "UIC:", "MPO", "SysNo", "UI", "CIIC", "DLA", "BUoM", "OH Qty"]):
+        if any(prefix in line for prefix in ["Time:", "Date:", "Page", "From:", "To:", "FE:", "UIC:", "MPO", "SysNo", "UI", "CIIC", "DLA", "BUoM", "OH Qty", ]):
             i += 1
             continue
 

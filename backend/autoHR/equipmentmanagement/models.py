@@ -3,12 +3,8 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.conf import settings
 from django.utils import timezone
+from django.core.exceptions import ObjectDoesNotExist
 
-
-class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    rank = models.CharField(max_length=50)
-    unit = models.ForeignKey('Unit', on_delete=models.SET_NULL, null=True)
 
 class Unit(models.Model):
     name = models.CharField(max_length=100)
@@ -17,6 +13,21 @@ class Unit(models.Model):
     def __str__(self):
         return self.name
 
+class UserProfile(models.Model):
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='profile')
+    rank = models.CharField(max_length=255)
+    unit = models.ForeignKey('Unit', on_delete=models.SET_NULL, null=True)
+
+    def save(self, *args, **kwargs):
+        # Check whether this is a new record or an existing one
+        creating = self._state.adding
+        super(UserProfile, self).save(*args, **kwargs)
+
+        if creating:
+            try:
+                cart = self.cart
+            except ObjectDoesNotExist:
+                Cart.objects.create(user_profile=self)
 class Equipment(models.Model):
     STATUS_CHOICES = (
         ('available', 'Available'),
@@ -36,21 +47,14 @@ class Equipment(models.Model):
     def __str__(self):
         return self.name
     
-# class Transaction(models.Model):
-#     user = models.ForeignKey(User, on_delete=models.CASCADE)
-#     equipment = models.ForeignKey(Equipment, on_delete=models.CASCADE)
-#     checkout_date = models.DateField()
-#     return_date = models.DateField(null=True, blank=True)
-#     status = models.CharField(max_length=20, default='Out')  # e.g., Out, Returned
-
-#     def __str__(self):
-#         return f"{self.equipment.name} - {self.user.username}"
-    
-
-class Cart(models.Model): 
-    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='cart')
-    
-
+class Cart(models.Model):
+    user_profile = models.OneToOneField(
+        UserProfile,
+        on_delete=models.CASCADE,
+        related_name='cart', 
+        null=True,
+        blank=True
+    )
 class CartItem(models.Model):
     cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name='cart_items')
     equipment = models.ForeignKey(Equipment, on_delete=models.CASCADE, related_name='cart_items', null=True, blank=True)
@@ -63,8 +67,9 @@ class CartItem(models.Model):
 class Transaction(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     equipment = models.ForeignKey(Equipment, on_delete=models.CASCADE)
-    checkout_date = models.DateField(auto_now_add=True)
-    return_date = models.DateField(null =True, blank = True)
+    checkout_date = models.DateTimeField(auto_now_add=True)
+    return_date = models.DateTimeField(null=True, blank=True)
+    expected_return_date = models.DateTimeField(null =True, blank = True)
 
     status = models.CharField(max_length=20, choices = [('available', 'Available'),
         ('borrowed', 'Borrowed'),

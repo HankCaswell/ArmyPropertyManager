@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 from django.contrib.auth import authenticate, login
 from .models import Unit, Equipment, Transaction, UserProfile, Cart,  CartItem
-from .serializers import UserRegistrationSerializer, UserProfileSerializer, FileUploadSerializer, EquipmentSerializer
+from .serializers import UserRegistrationSerializer, UserProfileSerializer, FileUploadSerializer, EquipmentSerializer, EquipmentCalendarSerializer, TransactionSerializer
 from .serializers import UnitSerializer
 from rest_framework.generics import ListAPIView
 from django.views.generic import DetailView
@@ -14,9 +14,10 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 from autoHR.utils.pdf_parser import extract_text_from_pdf, parse_equipment_details, debug_parse_equipment_details
 from.models import Equipment
 from django.shortcuts import get_object_or_404
-from django.db.models import Sum
+from django.db.models import Sum, Prefetch
 from django.db import transaction
 from django.utils import timezone
+from rest_framework import generics
 
 
 class UserCreate(APIView): 
@@ -35,44 +36,22 @@ class UserProfileView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, *args, **kwargs):
-        user = request.user
-        profile = get_object_or_404(UserProfile, user=user)
-        cart_items = CartItem.objects.filter(cart__user=user)   #.select_related('equipment')
-
-        profile_data = UserProfileSerializer(profile).data
-        cart_items_data = EquipmentSerializer([item.equipment for item in cart_items], many=True).data
-        
-        # Merge profile data and cart items into one response
-        response_data = {
-            'profile': profile_data,
-            'cart_items': cart_items_data
-        }
-
-        return Response(response_data, HTTP_200_OK)
+        try:
+            user_profile = UserProfile.objects.prefetch_related(
+                'cart__cart_items__equipment',  # Adjust according to your model relationships
+            ).get(user=request.user)
+            serializer = UserProfileSerializer(user_profile)
+            return Response(serializer.data)
+        except UserProfile.DoesNotExist:
+            return Response({'error': 'UserProfile not found'}, status=404)
 
     def post(self, request, *args, **kwargs):
-        profile = UserProfile.objects.get(user=request.user)
+        profile = get_object_or_404(UserProfile, user=request.user)
         serializer = UserProfileSerializer(profile, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, HTTP_200_OK)
-        return Response(serializer.errors, HTTP_400_BAD_REQUEST)    
-    
-# class UserProfileView(APIView):
-#     permission_classes = [IsAuthenticated]
-
-#     def get(self, request, *args, **kwargs):
-#         profile = UserProfile.objects.get(user=request.user)
-#         serializer = UserProfileSerializer(profile)
-#         return Response(serializer.data, status=HTTP_200_OK)
-    
-#     def post(self, request, *args, **kwargs):
-#         profile = UserProfile.objects.get(user=request.user)
-#         serializer = UserProfileSerializer(profile, data=request.data, partial=True)
-#         if serializer.is_valid():
-#             serializer.save()
-#             return Response(serializer.data, status=HTTP_200_OK)
-#         return Response(serializer.errors, status=HTTP_400_BAD_REQUEST)
+        return Response(serializer.errors, HTTP_400_BAD_REQUEST)
     
 class LoginView(APIView):
     permission_classes = [AllowAny]
@@ -207,30 +186,33 @@ class AddToCartView(APIView):
     def post(self, request, *args, **kwargs):
         equipment_id = request.data.get('equipment_id')
         quantity = int(request.data.get('quantity', 1))
+       
+
+        # Get the user's UserProfile instance
+        user_profile = get_object_or_404(UserProfile, user=request.user)
 
         equipment = get_object_or_404(Equipment, id=equipment_id)
         if equipment.quantity < quantity or equipment.status != 'Available':
             return Response({'error': 'Insufficient quantity or equipment not available'}, status=HTTP_400_BAD_REQUEST)
 
-        cart, created = Cart.objects.get_or_create(user=request.user)
+        # Retrieve or create the cart based on the user's profile
+        cart, created = Cart.objects.get_or_create(user_profile=user_profile)
        
         transaction = Transaction.objects.create(
-            user = request.user,
-            equipment = equipment,
-            checkout_date = timezone.now(),
-            return_date = None,
-            status = 'Borrowed'
+            user=request.user,
+            equipment=equipment,
+            checkout_date=timezone.now(),
+            return_date=None,
+            status='Borrowed'
         )
         
-        CartItem.objects.create(cart=cart, equipment=equipment, quantity=quantity, transaction= transaction)
-
+        CartItem.objects.create(cart=cart, equipment=equipment, quantity=quantity, transaction=transaction)
 
         equipment.quantity -= quantity  # Decrement the stock quantity
         equipment.status = 'Borrowed'
         equipment.save()
 
         return Response({'status': 'added to cart'}, status=HTTP_201_CREATED)
-
 
 class CheckoutView(APIView):
     permission_classes = [IsAuthenticated]
@@ -314,3 +296,23 @@ class UserCheckedOutEquipmentView(APIView):
         transactions = Transaction.objects.filter(user=request.user, status='signed_out')
         serializer = EquipmentSerializer([transaction.equipment for transaction in transactions], many=True)
         return Response(serializer.data, status=HTTP_200_OK)
+    
+    
+class EquipmentCalendarView(APIView):
+    def get(self, request):
+        transactions = Transaction.objects.filter(status='Borrowed')
+        serializer = EquipmentCalendarSerializer(transactions, many=True)
+        return Response(serializer.data)
+
+
+
+class TransactionListView(generics.ListAPIView):
+    queryset = Transaction.objects.all()
+    serializer_class = EquipmentCalendarSerializer
+
+
+class TransactionCalendarView(APIView):
+    def get(self, request):
+        transactions = Transaction.objects.all()
+        serializer = EquipmentCalendarSerializer(transactions, many=True)
+        return Response(serializer.data)
